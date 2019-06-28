@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "jquery": "^3.4.1",
+    "prop-types": "latest",
+    "qs": "latest",
     "react": "^16.8.6",
+    "react-cookie": "^4.0.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "reqwest": "^2.0.5",
+    "antd": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/experimental-utils": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "axios": "^0.19.0",
+    "typescript": "^3.5.2"
+  },
+  "proxy": "http://localhost:8080/api"
 }
