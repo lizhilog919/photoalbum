@@ -25,14 +25,11 @@ class Home extends Component {
         this.user.nick = cookies.get("userNick");
         if (this.user.id == null || this.user.id === "undefined") {
             this.user = null;
-            this.state.isLogin = false;
-        } else {
-            this.state.isLogin = true;
         }
         return (
             <div>
                    <p>{this.user == null ? "" : this.user.nick}</p>
-                   <p><span onClick={this.handleLogin}>{this.state.isLogin?"退出登录":"登录"}</span>  <span onClick={this.handleRegister}>注册</span></p>
+                   <p><span onClick={this.handleLogin}>{this.user != null ? "退出登录":"登录"}</span>  <span onClick={this.handleRegister}>注册</span></p>
             </div>
         );
     }

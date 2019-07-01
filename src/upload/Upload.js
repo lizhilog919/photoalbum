@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Upload, Button, Icon, message }  from 'antd';
+import {Upload, Button, Icon }  from 'antd';
 
 export default class UploadPage extends Component {
 
