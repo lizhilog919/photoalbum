@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/experimental-utils": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "typescript": "^3.5.2"
   },
   "proxy": "http://www.love-lingxin.cn:8080/api"
